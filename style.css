@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+body{
+    margin: 50px 80px;
+    position: relative;   
+    height: 100vh; 
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    /* height: 20vh; */
+}
+
+.navbar-container img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex: 1;
+    margin: auto;
+    height: 35px;
+}
+
+nav .list{
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    height: 50%;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 10px;
+}
+
+.list-item{
+    font-family: 'Orbitron';
+    font-size: 18px;
+    margin: 0 18px;
+    font-weight: 600;
+}
+.button-group{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.search-icon svg{
+    height: 23px;
+    margin-right: 20px;
+}
+
+.nav-button{
+    display: block;
+    border: 2.5px solid #000000;
+    border-radius: 15px;
+    padding: 2.5px 35px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+.square img{
+    height: 280px;
+    position: relative;
+    top: 290px;
+    left: 140px;
+    z-index: -1;
+       
+}
+
+.person-hero-image{
+    height: 450px;
+    position: relative;
+    bottom: 210px;
+    left: 0;
+
+}
+
+.hero-container-right{
+    width: 680px;
+    position: absolute;
+    top: 180px;
+    right: 0;
+    text-align: center;
+    /* text-align: justifys; */
+}
+
+.star img{
+    position: relative;
+    right: -820px;
+    top: -150px;
+    width: 50px;
+}
+.star-two img{
+    position: relative;
+    right: -200px;
+    top: 250px;
+    width: 35px;
+}
+.globe img{
+    position: relative;
+    right: -250px;
+    top: -180px;
+    width: 55px;
+}
+
+.hero-heading{
+    font-family: 'Orbitron',sans-serif;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.hero-description{
+    font-family: 'Poppins',sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0px auto;
+    color: #758283;
+    width: 520px;
+}
+
+.button-email{
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 3px 25px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    margin: 80px 10px;
+    font-weight: 500;
+    background-color: #ffffff;
+}
+
+.button-email{
+    color: #758283;
+}
+
+.button-join{
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 3px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    margin: 50px auto;
+    font-weight: 500;
+    background-color: #000000;
+
+}
+
+.button-join{
+    color: white;
+}
+
+.contact-heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #758283;
+}
+.icons {
+    margin: 15px auto;
+    position: static;
+    bottom: 0px;
+}
+
+.facebook-icon{
+    height: 30px;
+    margin: 0 7px;
+}
+
+.messenger-icon{
+    height: 30px;
+    margin: 0 7px;
+}
+.instagram-icon{
+    height: 30px;
+    margin: 0 7px;
+}
+.whatsapp-icon{
+    height: 30px;
+    margin: 0 7px;
+}
+
+.list li {
+    display: inline-block;
+    transition: .5s ease-in;
+}
+
+.list li:hover{
+    color: #000000;
+    font: bold;
+    /* font-size: 20px; */
+}
+.list-item::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #000000;
+}
+.list-item:hover::after{
+    width: 100%;
+    transition: .2s ease;
+}
