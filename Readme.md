@@ -7,3 +7,7 @@
 - How to set stacking order of images one over other.
 ### Time Taken:
 - 8 Hours
+## Links
+[netlify](https://shivanand-project-1.netlify.app/)
+
+![badge](https://img.shields.io/badge/Project--1-Deployed-green)
